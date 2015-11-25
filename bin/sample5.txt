@@ -1,0 +1,186 @@
+23   // line one
+9
+23   // line two 
+60
+23   // line three         
+81
+23   // line four               
+124                         
+50 
+1 ld _ //line1
+95
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld |
+124
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld /
+47
+9 \\print
+2
+1 ld \
+92
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld |
+124
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+1 ld _
+95
+9 \\print
+2
+23 //call newline
+175 //line number
+24 return
+1 //print space //line2
+32
+9  //print
+2
+1 ld \
+92
+9 \\print
+2
+1 ld 8
+8
+27
+23 // call spaces
+161 //line number
+28
+1 ld /
+47
+9 \\print
+2
+23 // call newline
+175 //line number
+24
+1 //print space //line3
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 ld \
+92
+9 \\print
+2
+1 //print space 
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 ld /
+47
+9 \\print
+2
+1 ld \
+92
+9 \\print
+2
+1 //print space 
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 ld /
+47
+9 \\print
+2
+23 // call newline
+175 //line number
+24
+1 //print space //line4
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 ld |
+124
+9 \\print
+2
+1 ld /
+47
+9 \\print
+2
+1 //print space 
+32
+9  //print
+2
+1 //print space 
+32
+9  //print
+2
+1 ld \
+92
+9 \\print
+2
+1 ld |
+124
+9 //print
+2
+24
+1    ld 1  //Print spaces
+1 
+14   CopyToX
+6    LoadSpX  - get parm
+14   CopyToX
+1    ld ' ' 
+32
+9    output
+2
+26   decX
+15   CopyFromX
+22   JNE 166
+166 //line number
+24  
+1    // print newline
+10
+9
+2
+24
+
+.1000
+30   interrupt handler - just return
+
+
+
